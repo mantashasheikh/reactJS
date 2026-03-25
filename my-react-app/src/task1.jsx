@@ -10,7 +10,7 @@ function Task1() {
 
 
             <div className="right">
-                <img src="" alt="" />
+                <img src="butterfly.jpg" alt="butterfly" />
             </div>
 
         
