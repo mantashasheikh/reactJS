@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Task2 from "./task2";
+
 function App() {
   let [data, setData] = useState(0);
   // function demo(d) {
@@ -16,6 +18,8 @@ function App() {
 
   }
 
+  
+
   return (
     <>
     <h1>this is app page - {data}</h1>
@@ -28,6 +32,10 @@ function App() {
     <p>{data}</p>
     <button onClick={demo1}>+</button>
     <button onClick={demo2}>-</button>
+
+    <Task2 />
+    
+
     </>
   )
 }
